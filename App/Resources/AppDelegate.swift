@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  LiquidGlass
-//
-//  Created by Денис Баринов on 06.12.2025.
-//
-
 import UIKit
 
 @main
@@ -33,4 +26,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

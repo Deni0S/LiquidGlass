@@ -6,27 +6,52 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		034AFFAE2EFAC26A009D7D56 /* BackgroundLiquidGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034AFFAC2EFAC269009D7D56 /* BackgroundLiquidGlassView.swift */; };
+		03BBA9542EEEB09B008F86CF /* SwipeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BBA9522EEEB09B008F86CF /* SwipeButtonView.swift */; };
+		03BBA9572EEEB485008F86CF /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BBA9562EEEB483008F86CF /* TabBarView.swift */; };
+		03BBA9972EEF0BDB008F86CF /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BBA9932EEF0A0A008F86CF /* SwitchView.swift */; };
+		03BBA9992EEF12F5008F86CF /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BBA9982EEF12EE008F86CF /* SliderView.swift */; };
+		03FDC1972EE61B900064946E /* LensLiquidGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDC1962EE61B8C0064946E /* LensLiquidGlassView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		0330B9062EE4743100121118 /* LiquidGlass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidGlass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		034AFFAC2EFAC269009D7D56 /* BackgroundLiquidGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundLiquidGlassView.swift; sourceTree = "<group>"; };
+		03BBA9522EEEB09B008F86CF /* SwipeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeButtonView.swift; sourceTree = "<group>"; };
+		03BBA9562EEEB483008F86CF /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		03BBA9932EEF0A0A008F86CF /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		03BBA9982EEF12EE008F86CF /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		03C232022EEF3B53008C93E3 /* LiquidGlass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidGlass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FDC1962EE61B8C0064946E /* LensLiquidGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensLiquidGlassView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		0330B9182EE4743200121118 /* Exceptions for "LiquidGlass" folder in "LiquidGlass" target */ = {
+		031BE3442EF31E5A003BE0A9 /* Exceptions for "App" folder in "LiquidGlass" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				App/Info.plist,
+				Resources/Info.plist,
 			);
 			target = 0330B9052EE4743100121118 /* LiquidGlass */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0330B9082EE4743100121118 /* LiquidGlass */ = {
+		031BE34F2EF32825003BE0A9 /* Aditional */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Aditional;
+			sourceTree = "<group>";
+		};
+		031BE35B2EF32827003BE0A9 /* Filters */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		03FDC1712EE613760064946E /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				0330B9182EE4743200121118 /* Exceptions for "LiquidGlass" folder in "LiquidGlass" target */,
+				031BE3442EF31E5A003BE0A9 /* Exceptions for "App" folder in "LiquidGlass" target */,
 			);
-			path = LiquidGlass;
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,17 +70,17 @@
 		0330B8FD2EE4743100121118 = {
 			isa = PBXGroup;
 			children = (
-				0330B9082EE4743100121118 /* LiquidGlass */,
-				0330B9072EE4743100121118 /* Products */,
+				03C232022EEF3B53008C93E3 /* LiquidGlass.app */,
+				03FDC1712EE613760064946E /* App */,
+				031BE34F2EF32825003BE0A9 /* Aditional */,
+				031BE35B2EF32827003BE0A9 /* Filters */,
+				03BBA9982EEF12EE008F86CF /* SliderView.swift */,
+				03BBA9932EEF0A0A008F86CF /* SwitchView.swift */,
+				03BBA9522EEEB09B008F86CF /* SwipeButtonView.swift */,
+				03BBA9562EEEB483008F86CF /* TabBarView.swift */,
+				03FDC1962EE61B8C0064946E /* LensLiquidGlassView.swift */,
+				034AFFAC2EFAC269009D7D56 /* BackgroundLiquidGlassView.swift */,
 			);
-			sourceTree = "<group>";
-		};
-		0330B9072EE4743100121118 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0330B9062EE4743100121118 /* LiquidGlass.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,13 +99,15 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0330B9082EE4743100121118 /* LiquidGlass */,
+				031BE34F2EF32825003BE0A9 /* Aditional */,
+				031BE35B2EF32827003BE0A9 /* Filters */,
+				03FDC1712EE613760064946E /* App */,
 			);
 			name = LiquidGlass;
 			packageProductDependencies = (
 			);
 			productName = LiquidGlass;
-			productReference = 0330B9062EE4743100121118 /* LiquidGlass.app */;
+			productReference = 03C232022EEF3B53008C93E3 /* LiquidGlass.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +118,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2610;
-				LastUpgradeCheck = 2610;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					0330B9052EE4743100121118 = {
 						CreatedOnToolsVersion = 26.1.1;
@@ -108,7 +135,7 @@
 			mainGroup = 0330B8FD2EE4743100121118;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 0330B9072EE4743100121118 /* Products */;
+			productRefGroup = 0330B8FD2EE4743100121118;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -132,6 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03BBA9972EEF0BDB008F86CF /* SwitchView.swift in Sources */,
+				03BBA9992EEF12F5008F86CF /* SliderView.swift in Sources */,
+				034AFFAE2EFAC26A009D7D56 /* BackgroundLiquidGlassView.swift in Sources */,
+				03BBA9542EEEB09B008F86CF /* SwipeButtonView.swift in Sources */,
+				03BBA9572EEEB485008F86CF /* TabBarView.swift in Sources */,
+				03FDC1972EE61B900064946E /* LensLiquidGlassView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,13 +180,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SJ69ZFHT28;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LiquidGlass/App/Info.plist;
+				INFOPLIST_FILE = App/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -180,13 +213,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SJ69ZFHT28;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LiquidGlass/App/Info.plist;
+				INFOPLIST_FILE = App/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -263,6 +296,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -320,6 +354,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
